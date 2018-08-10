@@ -5,14 +5,14 @@ function takeANumber (line, name){
 }
 
 
-function nowServing(katzDeliLine){
-  return katzDeliLine(1);
+// function nowServing(katzDeliLine){
+//   return katzDeliLine(1);
   
-  katzDeliLine.shift;
+//   katzDeliLine.shift;
   
-  if(katzDeliLine.length === 0){
-    return "There is nobody waiting to be served!";
-  }
+//   if (katzDeliLine === []){
+//     return "There is nobody waiting to be served!";
+//   }
   
-}
+// }
 
